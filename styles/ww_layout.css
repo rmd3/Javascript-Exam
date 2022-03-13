@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*
+	Wally's Widgets Style Sheet
+	Filename: ww_layout.css
+*/
+
+/* HTML and Body Styles */
+
+html {
+	background: #6495ED;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+body {
+	background: #F0F8FF;
+	max-width: 1024px;
+	min-width: 420px;
+	min-height: 730px;
+	margin: 0px auto;
+	box-shadow: 0px 0px 35px black;
+}
+
+/* Header Styles */
+
+img {
+	float: left;
+	width:170px;
+	height:170px;
+	margin-right:15px;
+}
+
+h1 {
+	float: right;
+	padding-top: 45px;
+}
+
+/* Navigation Styles */
+
+nav {
+	clear: both;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}

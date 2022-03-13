@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*
+	Wally's Widgets Style Sheet
+	Filename: ww_styles3.css
+*/
+
+/* Aside Style */
+aside {
+	position: absolute;
+	top: 290px;
+	right: 350px;
+	width: 300px;
+}
+
+body {
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}

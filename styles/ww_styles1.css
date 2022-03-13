@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/*
+	Wally's Widgets Style Sheet
+	Filename: ww_style1.css
+*/
+
+/* Table Styles */
+
+table, th, td {
+  border: 1px solid black;
+}
