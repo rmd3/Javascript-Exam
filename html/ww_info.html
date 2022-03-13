@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!--
+   Wally's Widgets Product Info
+   Author: Richard D'Anjolell
+   Date: 09/28/21
+   
+   Filename: ww_info.html
+   
+-->
+
+   <title>Wally's Widgets Product Info</title>
+   <meta charset="utf-8" />
+   
+   <link href="../styles/ww_layout.css" rel="stylesheet" />
+   <link href="../styles/ww_styles2.css" rel="stylesheet" />
+   <script src="../javascript/outputproducts.js"></script>
+   <script src="../javascript/dropdownproduct.js"></script>
+   
+</head>
+
+<body>
+   <header>
+      <img src="../image/Wally's_Widgets.png" alt="Wally's Widgets">
+	  <h1>Wally's Widgets</h1>
+	  <nav class="horizontal">
+         <ul>
+            <li><a href="ww_list.html">Product List</a></li>
+            <li><a href="ww_info.html">Product Info</a></li>
+            <li><a href="ww_order.html">Product Order</a></li>
+         </ul>
+      </nav>
+   </header>
+   <button onclick="showProduct1()">Output Widget 1</button><br>
+   <div id="p1">
+   </div>
+   <button onclick="showProduct2()">Output Widget 2</button><br>
+   <div id="p2">
+   </div>
+   <button onclick="showProduct3()">Output Widget 3</button><br>
+   <div id="p3">
+   </div>
+   <button onclick="showProduct4()">Output Widget 4</button><br>
+   <div id="p4">
+   </div>
+   <button onclick="showProduct5()">Output Widget 5</button><br>
+   <div id="p5">
+   </div>
+   <button onclick="showProduct7()">Output Widget 7</button><br>
+   <div id="p7">
+   </div>
+   <button onclick="showProduct6()">Output Widget 6</button>
+   <div id="p6">
+   </div>
+   <h2>Clickable Dropdown</h2>
+   <p>Click on the button to open the dropdown menu.</p>
+
+   <div class="dropdown">
+     <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+     <div id="myDropdown" class="dropdown-content">
+	   <a href="#home">Home</a>
+	   <a href="#about">About</a>
+	   <a href="#contact">Contact</a>
+     </div>
+   </div>
+</body>
+</html>
